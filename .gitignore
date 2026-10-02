@@ -1,0 +1,17 @@
+# client data and anything derived from it - never commit
+data/*
+!data/README.md
+outputs/
+validation/label_sheet.csv
+*.csv
+!validation/labels.csv
+!validation/labels_claude_blind.csv
+*.xlsx
+# python / env
+__pycache__/
+*.pyc
+.venv/
+.env
+*.key
+
+validation/label_review*.csv
